@@ -1,9 +1,9 @@
 package david.headfirst.demo;
 
-import david.headfirst.model.ChicagoPizzaStore;
-import david.headfirst.model.NyPizzaStore;
-import david.headfirst.model.PizzaStore;
-import david.headfirst.model.PizzaTypeEnum;
+import david.headfirst.model.factory.ChicagoPizzaStore;
+import david.headfirst.model.factory.NyPizzaStore;
+import david.headfirst.model.factory.PizzaStore;
+import david.headfirst.model.factory.PizzaTypeEnum;
 
 public class FactoryDemoRun {
 

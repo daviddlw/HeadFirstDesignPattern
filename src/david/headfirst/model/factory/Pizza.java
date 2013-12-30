@@ -1,4 +1,4 @@
-package david.headfirst.model;
+package david.headfirst.model.factory;
 
 public class Pizza {
 

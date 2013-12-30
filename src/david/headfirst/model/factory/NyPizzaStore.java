@@ -1,4 +1,5 @@
-package david.headfirst.model;
+package david.headfirst.model.factory;
+
 
 public class NyPizzaStore extends PizzaStore {
 
