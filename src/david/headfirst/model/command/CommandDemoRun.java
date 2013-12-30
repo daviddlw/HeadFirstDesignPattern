@@ -61,6 +61,7 @@ public class CommandDemoRun {
 			rc.executeOffCommand(i);
 			System.out.println("*********************");
 		}
+		
 	}
 
 	public static void ceilFanCommandWithDetailUndoInfo() {
