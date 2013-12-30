@@ -1,7 +1,5 @@
 package david.headfirst.model;
 
-import javax.print.attribute.standard.MediaSize.NA;
-
 public class NyPizzaStore extends PizzaStore {
 
 	@Override
