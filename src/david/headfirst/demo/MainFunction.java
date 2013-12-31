@@ -1,5 +1,6 @@
 package david.headfirst.demo;
 
+import david.headfirst.model.adapter.DemoRun;
 import david.headfirst.model.command.CommandDemoRun;
 
 public class MainFunction {
@@ -9,6 +10,8 @@ public class MainFunction {
 		// CommandDemoRun.commandDemoRun();
 		// CommandDemoRun.kitchenOrRoomDemoRun();
 		// CommandDemoRun.commandFullyDemoRun();
-		CommandDemoRun.ceilFanCommandWithDetailUndoInfo();
+		// CommandDemoRun.ceilFanCommandWithDetailUndoInfo();
+		// CommandDemoRun.marcoCommandDemoRun();
+		DemoRun.testAdapterDemoRun();
 	}
 }
