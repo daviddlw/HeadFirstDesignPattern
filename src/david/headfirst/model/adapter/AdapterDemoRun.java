@@ -1,6 +1,7 @@
 package david.headfirst.model.adapter;
 
-public class DemoRun {
+
+public class AdapterDemoRun {
 	public static void testAdapterDemoRun() {
 		IDuck duck = new MarllardDuck();
 		duck.quack();
