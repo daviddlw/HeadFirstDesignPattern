@@ -54,9 +54,10 @@ public class DynamicProxyDemoRun {
 	public static void getNotOwnerProxy() {
 		try {
 			IPersonBean personBean = new PersonBeanImp("notdaviddai", "notmale",
-					"nottravel,notcomputer,notgame,nottalk");
+					"nottravel,notcomputer,notgame,nottalk");			
 			personBean.setHotOrNotRating(100);
 			IPersonBean personBeanImp = getNotOwnerProxy(personBean);
+//			System.out.println(Proxy.isProxyClass(personBeanImp.getClass()));/
 			System.out.println(personBeanImp.getName());
 			System.out.println(personBeanImp.getGender());
 			System.out.println(personBeanImp.getInterests());
