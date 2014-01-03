@@ -1,7 +1,10 @@
 package david.headfirst.demo;
 
+import java.util.Arrays;
+
 import david.headfirst.model.adapter.AdapterDemoRun;
 import david.headfirst.model.command.CommandDemoRun;
+import david.headfirst.model.observer.ObserverDemoRun;
 import david.headfirst.model.proxy.DynamicProxyDemoRun;
 import david.headfirst.model.proxy.PersonBeanImp;
 import david.headfirst.model.strategy.StrategyDemoRun;
@@ -20,6 +23,9 @@ public class MainFunction {
 		// DynamicProxyDemoRun.getOwnerProxy();
 		// DynamicProxyDemoRun.getNotOwnerProxy();
 		// DynamicProxyDemoRun.getProxy(false);
-		StrategyDemoRun.showDuckDemo();
+		// StrategyDemoRun.showDuckDemo();
+		// ObserverDemoRun.observerDemoRun();
+		// ObserverDemoRun.observerDemoRunByObservable();
+		
 	}
 }
