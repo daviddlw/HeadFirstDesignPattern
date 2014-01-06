@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import david.headfirst.model.adapter.AdapterDemoRun;
 import david.headfirst.model.command.CommandDemoRun;
+import david.headfirst.model.decorator.DecoratorDemoRun;
 import david.headfirst.model.observer.ObserverDemoRun;
 import david.headfirst.model.proxy.DynamicProxyDemoRun;
 import david.headfirst.model.proxy.PersonBeanImp;
@@ -27,6 +28,7 @@ public class MainFunction {
 		// StrategyDemoRun.showDuckDemo();
 		// ObserverDemoRun.observerDemoRun();
 		// ObserverDemoRun.observerDemoRunByObservable();
-		TemplateDemoRun.templateDemoRun();
+		// TemplateDemoRun.templateDemoRun();
+		DecoratorDemoRun.decoratorDemoRun();
 	}
 }
