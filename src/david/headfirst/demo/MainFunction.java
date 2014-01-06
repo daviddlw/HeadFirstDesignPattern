@@ -8,6 +8,7 @@ import david.headfirst.model.observer.ObserverDemoRun;
 import david.headfirst.model.proxy.DynamicProxyDemoRun;
 import david.headfirst.model.proxy.PersonBeanImp;
 import david.headfirst.model.strategy.StrategyDemoRun;
+import david.headfirst.model.template.TemplateDemoRun;
 
 public class MainFunction {
 
@@ -26,6 +27,6 @@ public class MainFunction {
 		// StrategyDemoRun.showDuckDemo();
 		// ObserverDemoRun.observerDemoRun();
 		// ObserverDemoRun.observerDemoRunByObservable();
-		
+		TemplateDemoRun.templateDemoRun();
 	}
 }
