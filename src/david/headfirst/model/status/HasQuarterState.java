@@ -30,7 +30,7 @@ public class HasQuarterState implements IState {
 		// TODO Auto-generated method stub
 		System.out.println("你转动了手柄...");
 		int randNum = random.nextInt(100);
-		if (randNum <= 50 && machine.getCount() > 1) {
+		if (randNum <= -1 && machine.getCount() > 1) {
 			machine.setState(machine.getWinnerState());
 		} else {
 			machine.setState(machine.getSoldState());
@@ -43,4 +43,9 @@ public class HasQuarterState implements IState {
 		System.out.println("没有糖果可以售卖...");
 	}
 
+	@Override
+	public void refill(int count) {
+		// TODO Auto-generated method stub
+		System.out.println("糖果机里已经有糖果了，不需要重复填充...");
+	}
 }

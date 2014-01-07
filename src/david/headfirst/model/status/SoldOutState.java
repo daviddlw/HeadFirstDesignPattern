@@ -2,7 +2,7 @@ package david.headfirst.model.status;
 
 public class SoldOutState implements IState {
 	private GumballMachine machine;
-	
+
 	public SoldOutState(GumballMachine machine) {
 		// TODO Auto-generated constructor stub
 		this.machine = machine;
@@ -30,5 +30,13 @@ public class SoldOutState implements IState {
 	public void dispense() {
 		// TODO Auto-generated method stub
 		System.out.println("对不起，糖果已经售完...");
+	}
+
+	@Override
+	public void refill(int count) {
+		// TODO Auto-generated method stub
+		System.out.println("重新填充了" + count + "颗糖果");
+		machine.setState(machine.getNoQuarterState());
+		machine.setCount(count);
 	}
 }

@@ -31,6 +31,6 @@ public class MainFunction {
 		// ObserverDemoRun.observerDemoRunByObservable();
 		// TemplateDemoRun.templateDemoRun();
 		// DecoratorDemoRun.decoratorDemoRun();
-		// StatusDemoRun.statusDemoRun();
+		 StatusDemoRun.statusDemoRun();
 	}
 }

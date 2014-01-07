@@ -20,4 +20,9 @@ public interface IState {
 	 * 分配糖果
 	 */
 	public void dispense();
+	
+	/*
+	 * 重新填充糖果
+	 */
+	public void refill(int count);
 }

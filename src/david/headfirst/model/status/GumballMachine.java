@@ -37,6 +37,10 @@ public class GumballMachine {
 		state.dispense();
 	}
 
+	public void refill(int count) {
+		state.refill(count);
+	}
+
 	public void setState(IState state) {
 		this.state = state;
 	}
@@ -63,6 +67,10 @@ public class GumballMachine {
 
 	public int getCount() {
 		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
 	}
 
 	public void releaseGumball() {

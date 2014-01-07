@@ -37,4 +37,10 @@ public class SoldState implements IState {
 			machine.setState(machine.getSoldOutState());
 		}
 	}
+
+	@Override
+	public void refill(int count) {
+		// TODO Auto-generated method stub
+		System.out.println("糖果机里已经有糖果了，不需要重复填充...");
+	}
 }
