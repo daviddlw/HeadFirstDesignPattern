@@ -3,6 +3,7 @@ package david.headfirst.demo;
 import java.util.Arrays;
 
 import david.headfirst.model.adapter.AdapterDemoRun;
+import david.headfirst.model.combination.CombinationDemoRun;
 import david.headfirst.model.command.CommandDemoRun;
 import david.headfirst.model.decorator.DecoratorDemoRun;
 import david.headfirst.model.observer.ObserverDemoRun;
@@ -31,6 +32,7 @@ public class MainFunction {
 		// ObserverDemoRun.observerDemoRunByObservable();
 		// TemplateDemoRun.templateDemoRun();
 		// DecoratorDemoRun.decoratorDemoRun();
-		 StatusDemoRun.statusDemoRun();
+		// StatusDemoRun.statusDemoRun();
+		CombinationDemoRun.testDuckSimulatorDemo();
 	}
 }

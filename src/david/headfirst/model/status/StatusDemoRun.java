@@ -30,19 +30,19 @@ public class StatusDemoRun {
 		// machine.ejectQuarter();
 		// showMachineInfo(machine);
 
-		// for (int i = 0; i < 6; i++) {
-		// machine.insertQuarter();
-		// machine.turnCrank();
-		// }
-		// showMachineInfo(machine);
-		// if (machine.getCount() == 0) {
-		// machine.refill(1);
-		// showMachineInfo(machine);
-		// machine.insertQuarter();
-		// machine.ejectQuarter();
-		// machine.insertQuarter();
-		// machine.turnCrank();
-		// }
+		for (int i = 0; i < 6; i++) {
+			machine.insertQuarter();
+			machine.turnCrank();
+		}
+		showMachineInfo(machine);
+		if (machine.getCount() == 0) {
+			machine.refill(1);
+			showMachineInfo(machine);
+			machine.insertQuarter();
+			machine.ejectQuarter();
+			machine.insertQuarter();
+			machine.turnCrank();
+		}
 	}
 
 	private static void showMachineInfo(GumballMachine machine) {
